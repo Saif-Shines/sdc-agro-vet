@@ -1,0 +1,1 @@
+This Repositiory hosts the code for SDC Agro Vet Website's Frontend and Responsive components.

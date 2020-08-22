@@ -11,7 +11,8 @@ html {
 body {
   font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
-  background: no-repeat url(./../assets/the-brewers-kab6rZITjaI-unspla.png);
+  background: repeat url(./../assets/landingpage-2000x2000px.png);
+  width: 100%;
 }
 
 nav ol {
@@ -39,20 +40,44 @@ header {
 
 .logo p {
   margin-left: 1vw;
+  color:#4CAF50;
+  background-color:antiquewhite;
+  border-radius: 5px;
+  padding: .4rem;
 }
 
 .menu {
+  font-weight: 350;
   grid-column-start: 3;
   grid-column-end: 8;
   grid-row: 1;
+}
+
+nav ol>li{
+  font-family:cursive;
+  font-size:1.5rem;
+  color:#4CAF50;
+  background-color:antiquewhite;
+  border-radius: 5px;
+  padding: .4rem;
+}
+
+nav ol>li:hover{
+  text-decoration: underline;
 }
 
 .logo span {
   font-size: 0.8rem;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    background-image: url('./../assets/landingpage-1024x1024.png');
+  }
 }
 
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (max-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    background-image: url('./../assets/landingpage-1024x1024.png');
+  }
 }
